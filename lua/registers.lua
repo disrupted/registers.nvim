@@ -159,6 +159,7 @@ local function open_window()
 	-- Set some options
 	local opts = {
 		style = "minimal",
+		border = "single",
 		relative = "cursor",
 		width = win_width,
 		height = win_height,
